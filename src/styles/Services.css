@@ -1,0 +1,42 @@
+.service {
+  margin-top: 160px;
+}
+.service-title h2 {
+  text-align: center;
+  font-size: 40px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+}
+.service-title h3 {
+  margin-top: 60px;
+  text-align: center;
+  font-size: 35px;
+  font-family: "Montserrat", sans-serif;
+}
+.accordion {
+  margin-top: 84px;
+}
+.accordion-services__title h4 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+  text-shadow: 1px 1px 2px #777777;
+}
+.accordion-services__body {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.accordion-services__body-list {
+  margin-left: 40px;
+}
+.accordion-services__body-list li {
+  font-size: 22px;
+  font-family: "Montserrat", sans-serif;
+}
+.accordion-services__body-list p {
+  font-size: 25px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+}
+/*# sourceMappingURL=Services.css.map */

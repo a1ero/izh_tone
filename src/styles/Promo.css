@@ -1,0 +1,40 @@
+.promo {
+  margin-top: 160px;
+}
+.promo h2 {
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+}
+.promo-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 80px;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
+.promo-content__image img {
+  width: 100%;
+}
+.promo-content__text {
+  margin-top: 80px;
+  margin-right: 85px;
+}
+.promo-content__text h3 {
+  margin-top: 30px;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+}
+.promo-content__text p {
+  margin-top: 30px;
+  font-size: 22px;
+  font-family: "Montserrat", sans-serif;
+}
+.promo-content__text-days {
+  font-size: 25px;
+  font-family: "Montserrat", sans-serif;
+}
+/*# sourceMappingURL=Promo.css.map */

@@ -1,0 +1,322 @@
+@media screen and (min-width: 2560px) {
+  .anchor:target::before {
+    content: "";
+    display: block;
+    height: calc(150px + 120px);
+    margin: -150px 0 0;
+  }
+  :target::before {
+    content: "";
+    display: block;
+    height: 130px;
+    margin: -130px 0 0;
+  }
+  .header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 150px;
+  }
+  .header-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    height: 150px;
+  }
+  .header-content__logo {
+    margin-top: 45px;
+    margin-left: -200px;
+  }
+  .header-content__logo img {
+    height: 55px;
+  }
+  .header-content__links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 70px;
+    width: 830px;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    align-items: center;
+    font-family: "Montserrat", sans-serif;
+  }
+  .header-content__tel {
+    margin-top: 55px;
+    margin-left: -50px;
+    width: 350px;
+    color: white;
+    text-align: right;
+    font-size: 28px;
+    font-family: "Montserrat", sans-serif;
+  }
+  .header-content__regime {
+    margin-right: -200px;
+    width: 350px;
+    color: white;
+    font-size: 25px;
+    text-align: right;
+    margin-top: 30px;
+    font-family: "Montserrat", sans-serif;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1399px) {
+  .anchor:target::before {
+    content: "";
+    display: block;
+    height: calc(150px + 120px);
+    margin: -150px 0 0;
+  }
+  :target::before {
+    content: "";
+    display: block;
+    height: 130px;
+    margin: -130px 0 0;
+  }
+  .header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 102px;
+  }
+  .header-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    height: 102px;
+  }
+  .header-content__logo {
+    height: 30px;
+    margin-top: 30px;
+  }
+  .header-content__links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: auto;
+    width: 430px;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    align-items: center;
+    font-family: "Montserrat", sans-serif;
+  }
+  .header-content__tel {
+    margin-top: 33px;
+    margin-right: 3%;
+    color: white;
+    text-align: right;
+    font-size: 18px;
+    font-family: "Montserrat", sans-serif;
+  }
+  .header-content__regime {
+    width: 150px;
+    color: white;
+    font-size: 15px;
+    text-align: right;
+    margin-top: 30px;
+    font-family: "Montserrat", sans-serif;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .anchor:target::before {
+    content: "";
+    display: block;
+    height: calc(150px + 120px);
+    margin: -150px 0 0;
+  }
+  :target::before {
+    content: "";
+    display: block;
+    height: 130px;
+    margin: -130px 0 0;
+  }
+  .header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 102px;
+  }
+  .header-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    height: 102px;
+  }
+  .header-content__logo {
+    height: 30px;
+    margin-top: 30px;
+  }
+  .header-content__links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: auto;
+    width: 430px;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    align-items: center;
+    font-family: "Montserrat", sans-serif;
+  }
+  .header-content__tel {
+    margin-top: 40px;
+    color: white;
+    text-align: right;
+    font-size: 18px;
+    font-family: "Montserrat", sans-serif;
+  }
+  .header-content__regime {
+    display: none;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .anchor:target::before {
+    content: "";
+    display: block;
+    height: calc(150px + 120px);
+    margin: -150px 0 0;
+  }
+  :target::before {
+    content: "";
+    display: block;
+    height: 130px;
+    margin: -130px 0 0;
+  }
+  .header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 102px;
+  }
+  .header-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    height: 102px;
+  }
+  .header-content__logo {
+    margin-top: 30px;
+  }
+  .header-content__logo img {
+    height: 30px;
+  }
+  .header-content__links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: auto;
+    width: 430px;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    align-items: center;
+    font-family: "Montserrat", sans-serif;
+  }
+  .header-content__tel {
+    display: none;
+  }
+  .header-content__regime {
+    display: none;
+  }
+}
+@media (min-width: 414px) and (max-width: 767px) {
+  #drop {
+    display: block;
+    margin-top: 30px;
+  }
+  .anchor:target::before {
+    content: "";
+    display: block;
+    height: calc(150px + 120px);
+    margin: -150px 0 0;
+  }
+  :target::before {
+    content: "";
+    display: block;
+    height: 130px;
+    margin: -130px 0 0;
+  }
+  .header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 102px;
+  }
+  .header-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    height: 102px;
+  }
+  .header-content__logo {
+    height: 30px;
+    margin-top: 30px;
+  }
+  .header-content__links {
+    display: none;
+  }
+  .header-content__tel {
+    display: none;
+  }
+  .header-content__regime {
+    display: none;
+  }
+}
+@media (max-width: 413px) {
+  #drop {
+    display: block;
+    margin-top: 25px;
+  }
+  .anchor:target::before {
+    content: "";
+    display: block;
+    height: calc(150px + 120px);
+    margin: -150px 0 0;
+  }
+  :target::before {
+    content: "";
+    display: block;
+    height: 130px;
+    margin: -130px 0 0;
+  }
+  .header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 90px;
+  }
+  .header-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    height: 102px;
+  }
+  .header-content__logo {
+    margin-top: 30px;
+    margin-left: 28%;
+  }
+  .header-content__links {
+    display: none;
+  }
+  .header-content__tel {
+    display: none;
+  }
+  .header-content__regime {
+    display: none;
+  }
+}
+/*# sourceMappingURL=header.css.map */
