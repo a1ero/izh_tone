@@ -21,6 +21,23 @@ function Carousels() {
             className='carousel'>
             <Carousel.Item className="carousel-item">
                 <img
+                    src={FifSlide}
+                    alt='Fifth Slide'
+                />
+                <Carousel.Caption className='carousel-item__content'>
+                    <h2>Бронирование кузова, стекол, фар<br/> автомобилей антигравийной пленкой</h2>
+                    <p>Соблюдаем все необходимые технологические условия обклеивания</p>
+                    <Nav.Link href='#form'>
+                        <Button
+                            className='carousel-item__content-btn'
+                            variant="light">
+                            <span className='carousel-item__content-btn__text'>Онлайн запись</span>
+                        </Button>
+                    </Nav.Link>
+                </Carousel.Caption>
+            </Carousel.Item>
+            <Carousel.Item className="carousel-item">
+                <img
                     src={FSlide}
                     alt='First Slide'
                 />
@@ -78,23 +95,6 @@ function Carousels() {
                 <Carousel.Caption className='carousel-item__content'>
                     <h2>Ремонт, замена<br/> автостекол</h2>
                     <p>Лечим сколы, трещины или меняем стекло полностью!</p>
-                    <Nav.Link href='#form'>
-                        <Button
-                            className='carousel-item__content-btn'
-                            variant="light">
-                            <span className='carousel-item__content-btn__text'>Онлайн запись</span>
-                        </Button>
-                    </Nav.Link>
-                </Carousel.Caption>
-            </Carousel.Item>
-            <Carousel.Item className="carousel-item">
-                <img
-                    src={FifSlide}
-                    alt='Fifth Slide'
-                />
-                <Carousel.Caption className='carousel-item__content'>
-                    <h2>Бронирование кузова, стекол, фар<br/> автомобилей антигравийной пленкой</h2>
-                    <p>Соблюдаем все необходимые технологические условия обклеивания</p>
                     <Nav.Link href='#form'>
                         <Button
                             className='carousel-item__content-btn'

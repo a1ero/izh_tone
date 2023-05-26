@@ -26,7 +26,7 @@ function About(){
                     <div className='about-container__content-map'>
                         <YMaps>
                             <Map className="about-container__content-map__place"
-                                 defaultState={{ center: [56.87796029702443,53.2041674602966], zoom: 16.5 }}>
+                                 defaultState={{ center: [56.87796029702443,53.2041674602966], zoom: 15.5 }}>
                                 <ZoomControl options={{ float: "right" }}/>
                                 <Placemark geometry={[56.87840086633307,53.2041674602966]} />
                             </Map>
